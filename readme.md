@@ -30,7 +30,7 @@ This is a rough overview of the topics discussed every week. These are subject t
 
 | Week | Topic | Description | Assignments | Materials |
 | ---- | ----- | ----------- | ----------- | --------- |
-| 1    | Introduction & overview | Course overview and expectations, classroom management and assignments/grading etc. Data collection. | tbd | tbd |
+| 1    | Introduction & overview | Course overview and expectations, classroom management and assignments/grading etc. Data collection. | Complete [Experiment 1](https://farm.pcibex.net/p/glQRwV/) and [Experiment 2](https://farm.pcibex.net/p/ceZUkj/) and recruit one more person. [Install R](https://www.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/), install [Texmaker](https://www.xm1math.net/texmaker/) or make an [Overleaf](https://www.overleaf.com/) account. | tbd |
 | 2    | Looking at data | Data types, file structure, encoding, R and RStudio, installing and loading packages, importing data | tbd | tbd |
 | 3    | | | | |
 | 4    | | | | |
