@@ -49,7 +49,7 @@ This is a rough overview of the topics discussed every week. These are subject t
 
 ### R
 
-- Wickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund (2023). *R for data science: import, tidy, transform, visualize, and model data*. 2nd ed. O’Reilly Media, Inc. URL: `https://r4ds.hadley.nz/`.
+- Wickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund (2023). [*R for data science: import, tidy, transform, visualize, and model data*](https://r4ds.hadley.nz/). 2nd ed. O’Reilly Media, Inc. URL: `https://r4ds.hadley.nz/`.
 
 ### Experiments
 
