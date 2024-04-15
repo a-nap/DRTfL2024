@@ -47,4 +47,11 @@ This is a rough overview of the topics discussed every week. These are subject t
 
 ## Recommended reading
 
-tbd
+### R
+
+- Wickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund (2023). *R for data science: import, tidy, transform, visualize, and model data*. 2nd ed. O’Reilly Media, Inc. URL: `https://r4ds.hadley.nz/`.
+
+### Experiments
+
+- Free-response: secret <!-- Erickson, Thomas D and Mark E Mattson (1981). “From words to meaning: A semantic illusion”. In: *Journal of Verbal Learning and Verbal Behavior* 20.5, pp. 540–551. DOI: 10.1016/s0022-5371(81)90165-1. -->
+- Self-paced reading with acceptability judgments: secret <!-- Gibson, Edward, Leon Bergen, and Steven T Piantadosi (2013). “Rational integration of noisy evidence and prior semantic expectations in sentence interpretation”. In: *Proceedings of the National Academy of Sciences* 110.20, pp. 8051–8056. DOI: 10.1073/pnas.1216438110. -->
