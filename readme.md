@@ -31,8 +31,8 @@ This is a rough overview of the topics discussed every week. These are subject t
 | Week | Topic | Description | Assignments | Materials |
 | ---- | ----- | ----------- | ----------- | --------- |
 | 1    | Introduction & overview | Course overview and expectations, classroom management and assignments/grading etc. Data collection. | Complete [Experiment 1](https://farm.pcibex.net/p/glQRwV/) and [Experiment 2](https://farm.pcibex.net/p/ceZUkj/) and recruit one more person. [Install R](https://www.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/), install [Texmaker](https://www.xm1math.net/texmaker/) or make an [Overleaf](https://www.overleaf.com/) account. | [Slides](https://github.com/a-nap/DRTfL2024/blob/1e3ac235f6957eaaebf8a19f1889d0b6a6f79fb7/Week%201/week1handout.pdf) |
-| 2    | Data, R and RStudio | Intro recap, (linguistic) data, directories, file structure, R and RStudio, installing and loading packages, working with scripts | Read chapters 2, 6 and 7 of [R for Data Science](https://r4ds.hadley.nz/), complete assignment 1 (tbd) | Slides, code |
-| 3    | Reading data, data inspection and manipulation | Looking at your data, data types, basic operators, importing, sorting, filtering, subsetting, removing missing data, data maniplation | Read chapters 3, 4 and 5 of [R for Data Science](https://r4ds.hadley.nz/), complete assignment 2 (tbd). | Slides, code, data |
+| 2    | Data, R and RStudio | Intro recap, directories, R and RStudio, installing and loading packages, working with scripts | Read chapters 2, 6 and 7 of [R for Data Science](https://r4ds.hadley.nz/), complete [assignment 1](https://github.com/a-nap/DRTfL2024/blob/main/Week%202/week2assignment.md) | [Slides](https://github.com/a-nap/DRTfL2024/blob/main/Week%202/week2handout.pdf), [code](https://github.com/a-nap/DRTfL2024/blob/main/Week%202/code_APR15.r) |
+| 3    | Reading data, data inspection and manipulation | Looking at your data, data types, importing, sorting, filtering, subsetting, removing missing data, data manipulation. Data: Moses illusion data, Noisy channel data | Read chapters 3, 4 and 5 of [R for Data Science](https://r4ds.hadley.nz/), complete assignment 2 (tbd). | Slides, code, data |
 | 4    | Data manipulation and error handling | Data manipulation (merging, summary statistics, grouping, if ... else ..., etc.), naming variables, pipelines, documentation, tidy code, error handling and getting help | tbd | Slides, code |
 | 5    | Data visualization | Communicating with graphics, choice of visualization, plot types, best practices, accessibility | tbd | Slides, code |
 | 6    | Data visualization | Visualizing in R (ggplot2, esquisse), exporting plots and data | tbd | Slides, code |
@@ -40,7 +40,7 @@ This is a rough overview of the topics discussed every week. These are subject t
 | 8    | Typesetting documents with LaTeX | What is LaTeX, basic document and file structure, advantages and disadvantages, from R to LaTeX | tbd | Slides, code |
 | 9    | Typesetting documents with LaTeX | Editing text (commands, whitespace, environments, font properties, figures, and tables), glosses, IPA symbols, semantic formulae, syntactic trees | tbd | Slides, code |
 | 10   | Typesetting documents with LaTeX and bibliography management | Large projects, citations, references, bibliography styles, bib file structure | tbd | Slides, code |
-| 11   | Literature and reference management, common command line commands | Reference managers, looking up literature, text editors, command line commads (grep, diff, ping, cd, etc.) | tbd | Slides, code |
+| 11   | Literature and reference management, common command line commands | Reference managers, looking up literature, text editors, command line commands (grep, diff, ping, cd, etc.) | tbd | Slides, code |
 | 12   | Version control and Git | Git, GitHub, version control | tbd | Slides |
 | 13   | Version control and Git | Git, GitHub, SSH, reverting to older versions | tbd | Slides, code |
 | 14   | Course wrap-up | | | Slides |
@@ -53,5 +53,5 @@ This is a rough overview of the topics discussed every week. These are subject t
 
 ### Experiments
 
-- Free-response: secret <!-- Erickson, Thomas D and Mark E Mattson (1981). “From words to meaning: A semantic illusion”. In: *Journal of Verbal Learning and Verbal Behavior* 20.5, pp. 540–551. DOI: 10.1016/s0022-5371(81)90165-1. -->
-- Self-paced reading with acceptability judgments: secret <!-- Gibson, Edward, Leon Bergen, and Steven T Piantadosi (2013). “Rational integration of noisy evidence and prior semantic expectations in sentence interpretation”. In: *Proceedings of the National Academy of Sciences* 110.20, pp. 8051–8056. DOI: 10.1073/pnas.1216438110. -->
+- Free-response: Erickson, Thomas D and Mark E Mattson (1981). “From words to meaning: A semantic illusion”. In: *Journal of Verbal Learning and Verbal Behavior* 20.5, pp. 540–551. DOI: [10.1016/s0022-5371(81)90165-1](https://www.sciencedirect.com/science/article/abs/pii/S0022537181901651).
+- Self-paced reading with acceptability judgments: Gibson, Edward, Leon Bergen, and Steven T Piantadosi (2013). “Rational integration of noisy evidence and prior semantic expectations in sentence interpretation”. In: *Proceedings of the National Academy of Sciences* 110.20, pp. 8051–8056. DOI: [10.1073/pnas.1216438110](https://www.pnas.org/doi/full/10.1073/pnas.1216438110).
