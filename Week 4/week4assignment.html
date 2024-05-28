@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Assignment Week 4</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+/* From extension bierner.markdown-checkbox */
+.contains-task-list {
+    padding-left: 0;
+}
+
+.contains-task-list li {
+    margin-left: 24px;
+}
+
+.contains-task-list .task-list-item {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.contains-task-list .contains-task-list {
+    padding-left: 20px;
+} 
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-dark">
+            <h1 id="assignment-week-4">Assignment Week 4</h1>
+<p>Please complete the following tasks. Submit the assignment as a single R script. Use comments and sections to give your file structure.</p>
+<h2 id="what-do-the-following-evaluate-to-and-why">What do the following evaluate to and why?</h2>
+<pre><code> !TRUE
+FALSE + 0
+5 &amp; TRUE
+0 &amp; TRUE
+1 - FALSE
+FALSE + 1
+1 | FALSE
+FALSE | NA
+</code></pre>
+<h2 id="have-the-mosescsv-data-saved-in-your-environment-as-moses-why-do-the-following-fail">Have the moses.csv data saved in your environment as &quot;moses&quot;. Why do the following fail?</h2>
+<pre><code>Summary(moses)
+read_csv(moses.csv)
+tail(moses, n==10)
+describe(Moses)
+filter(moses, CONDITION == 102)
+arragne(moses, ID)
+mutate(moses, ITEMS = as.character(&quot;ITEM&quot;)) 
+</code></pre>
+<h2 id="clean-up-the-moses-illusion-data-like-we-did-in-the-tasks-in-class-and-save-it-to-a-new-data-frame-use-pipes-instead-of-saving-each-step-to-a-new-data-frame">Clean up the Moses illusion data like we did in the tasks in class and save it to a new data frame. Use pipes instead of saving each step to a new data frame.</h2>
+<ul>
+<li>select relevant columns</li>
+<li>rename mislabeled columns</li>
+<li>remove missing data</li>
+<li>remove unnecessary rows</li>
+<li>change the item column to numeric values</li>
+<li>arrange by item, condition, and answer</li>
+</ul>
+<h2 id="from-the-moses-illusion-data-make-two-new-variables-printing-and-dontknow-respectively-with-all-answers-which-are-supposed-to-mean-printing-press-and-dont-know">From the Moses illusion data, make two new variables (printing and dont.know, respectively) with all answers which are supposed to mean &quot;printing (press) and &quot;don't know&quot;.</h2>
+<h2 id="preprocess-noisy-channel-data">Preprocess noisy channel data.</h2>
+<p>Make two data frames: for reading times and for acceptability judgments.</p>
+<h3 id="acceptability-ratings">Acceptability ratings</h3>
+<ul>
+<li>rename the ID column and column with the rating</li>
+<li>only data from the experiment (see <code>Label</code>) and where <code>PennElementType</code> IS &quot;Scale&quot;</li>
+<li>make sure the column with the rating data is numeric</li>
+<li>select the relevant columns: participant ID, item, condition, rating</li>
+<li>remove missing values</li>
+</ul>
+<h3 id="reading-times">Reading times</h3>
+<ul>
+<li>rename the ID column and column with the full sentence</li>
+<li>only data from the experiment (see <code>Label</code>)</li>
+<li>only data where <code>PennElementType</code> IS NOT &quot;Scale&quot; or &quot;TextInput&quot;</li>
+<li>only data from where Reading.time is not &quot;NULL&quot; (as a string)</li>
+<li>make a new column with reading times as numeric values</li>
+<li>keep only those rows with realistic reading times (between 80 and 2000 ms)</li>
+<li>select relevant columns: participant ID, item, condition, sentence, reading time, and Parameter</li>
+<li>remove missing values</li>
+</ul>
+<h2 id="solve-the-logic-exercise-from-the-slides">Solve the logic exercise from the slides.</h2>
+
+            
+            
+        </body>
+        </html>
