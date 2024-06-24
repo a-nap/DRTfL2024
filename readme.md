@@ -7,6 +7,9 @@ The materials will be updated weekly. Identifying information of the in-class pa
 
 You are more than welcome to follow along but I will not be able to grade or evaluate your homework.
 
+If you want to replicate this course, you can do so with
+proper attribution. To replicate the data, follow these links for [Experiment 1](https://farm.pcibex.net/r/CuZHnp/) (full Moses illusion experiment) and Experiment 2 (demo of self-paced reading with acceptability judgment).
+
 ## Course description
 
 This seminar provides a gentle, hands-on introduction to the essential tools for quantitative research for students of linguistics and the humanities overall. During the course of the seminar, the students will familiarize themselves with software that is rarely taught but is invaluable in developing an efficient, transparent, reusable, and scalable research workflow (e.g. R basics, LaTeX, git). From text file, through data visualization, to creating beautiful reports: this course will empower students to improve their skill and help them establish good practices.
@@ -39,9 +42,9 @@ This is a rough overview of the topics discussed every week. These are subject t
 | 7    | No class | Holiday | | |
 | 8    | Data visualization | Data visualization recap, best practices, lying with plots, practical exercises, exporting/saving plots and data. | Complete [assignment 6](https://github.com/a-nap/DRTfL2024/blob/main/Week%208/week8assignment.md). Install [Quarto](https://quarto.org/docs/get-started/). Watch [the introductory video](https://www.youtube.com/watch?v=_f3latmOhew) | Slides [large](https://github.com/a-nap/DRTfL2024/blob/main/Week%208/week8.pdf) and [compressed](https://github.com/a-nap/DRTfL2024/blob/main/Week%208/week8handout.pdf), [code](https://github.com/a-nap/DRTfL2024/blob/main/Week%208/code_MAY27.r) |
 | 9    | Creating reports with Quarto and knitr | Pandoc, markdown, Quarto, basic syntax and elements, export, document, and chunk options, documentation | Complete [assignment 7](https://github.com/a-nap/DRTfL2024/blob/main/Week%209/week9assignment.md). | [Slides](https://github.com/a-nap/DRTfL2024/blob/main/Week%209/week9handout.pdf), [compressed Quarto files](https://github.com/a-nap/DRTfL2024/blob/main/Week%209/quarto-demo.zip) |
-| 10    | Typesetting documents with LaTeX | What is LaTeX, basic document and file structure, advantages and disadvantages, from R to LaTeX | tbd | Slides, code |
-| 11    | Typesetting documents with LaTeX | Editing text (commands, whitespace, environments, font properties, figures, and tables), glosses, IPA symbols, semantic formulae, syntactic trees | tbd | Slides, code |
-| 12   | Typesetting documents with LaTeX and bibliography management | Large projects, citations, references, bibliography styles, bib file structure | tbd | Slides, code |
+| 10    | Typesetting documents with LaTeX | What is LaTeX, basic document and file structure, advantages and disadvantages, from R to LaTeX | Complete [assignment 8](https://github.com/a-nap/DRTfL2024/blob/main/Week%2010/week10assignment.md), read chapter 2 of [*The Not So Short Introduction to LaTeX*](https://tobi.oetiker.ch/lshort/lshort.pdf). | [Slides](https://github.com/a-nap/DRTfL2024/blob/main/Week%2010/week10handout.pdf), [basic LaTeX file (zip)](https://github.com/a-nap/DRTfL2024/blob/main/Week%2010/basic%20LaTeX%20document.zip) |
+| 11    | Typesetting documents with LaTeX | Editing text (commands, whitespace, environments, font properties, figures, and tables), glosses, IPA symbols, semantic formulae, syntactic trees | Complete [assignment 9](https://github.com/a-nap/DRTfL2024/blob/main/Week%2011/week11assignment.md), read [*Bibliography management with biblatex*](https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex) | [Slides](https://github.com/a-nap/DRTfL2024/blob/main/Week%2011/week11handout.pdf) |
+| 12   | Typesetting documents with LaTeX and bibliography management | Large projects, citations, references, bibliography styles, bib file structure | tbd | [Slides](), [big project files]() |
 | 13   | Literature and reference management, common command line commands | Reference managers, looking up literature, text editors, command line commands (grep, diff, ping, cd, etc.) | tbd | Slides, code |
 | 14   | Version control and Git | Git, GitHub, version control | tbd | Slides |
 | 15   | Version control and Git | Git, GitHub, SSH, reverting to older versions | tbd | Slides, code |
@@ -49,13 +52,28 @@ This is a rough overview of the topics discussed every week. These are subject t
 
 ## Recommended reading
 
+### LaTeX 
+
+- Overleaf (n.d.) *Bibliography management with biblatex*. Accessed: 2024-06-24. URL: [`https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex`](https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex)
+- Dickinson, Markus and Josh Herring (2008). *LaTeX for Linguists*. Accessed: 2024-06-07. URL:
+[`https://cl.indiana.edu/~md7/08/latex/slides.pdf`](https://cl.indiana.edu/~md7/08/latex/slides.pdf).
+- LaTeX/Linguistics - Wikibooks (2024). Accessed: 2024-06-07. URL: [`https://en.wikibooks.org/wiki/LaTeX/Linguistics`](https://en.wikibooks.org/wiki/LaTeX/Linguistics).
+- Oetiker, Tobias et al. (2023). *The Not So Short Introduction to LATEX*. Accessed: 2024-06-07. URL:
+[`https://tobi.oetiker.ch/lshort/lshort.pdf`](https://tobi.oetiker.ch/lshort/lshort.pdf).
+
+### Quarto
+
+- Introductory video: [`https://www.youtube.com/watch?v=_f3latmOhew`](https://www.youtube.com/watch?v=_f3latmOhew)
+- Documentation: [`https://quarto.org/docs/get-started/`](https://quarto.org/docs/get-started/)
+
 ### R
 
 - QCBS R Workshop Series [https://r.qcbs.ca/](https://r.qcbs.ca/)
-- Wickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund (2023). [*R for data science: import, tidy, transform, visualize, and model data*](https://r4ds.hadley.nz/). 2nd ed. O’Reilly Media, Inc. URL: `https://r4ds.hadley.nz/`.
+- Wickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund (2023). *R for data science: import, tidy, transform, visualize, and model data*. 2nd ed. O’Reilly Media, Inc. URL: [`https://r4ds.hadley.nz/`](https://r4ds.hadley.nz/).
+
 
 
 ### Experiments
 
-- Free-response: Erickson, Thomas D and Mark E Mattson (1981). “From words to meaning: A semantic illusion”. In: *Journal of Verbal Learning and Verbal Behavior* 20.5, pp. 540–551. DOI: [10.1016/s0022-5371(81)90165-1](https://www.sciencedirect.com/science/article/abs/pii/S0022537181901651).
-- Self-paced reading with acceptability judgments: Gibson, Edward, Leon Bergen, and Steven T Piantadosi (2013). “Rational integration of noisy evidence and prior semantic expectations in sentence interpretation”. In: *Proceedings of the National Academy of Sciences* 110.20, pp. 8051–8056. DOI: [10.1073/pnas.1216438110](https://www.pnas.org/doi/full/10.1073/pnas.1216438110).
+- Free-response: Erickson, Thomas D and Mark E Mattson (1981). “From words to meaning: A semantic illusion”. In: *Journal of Verbal Learning and Verbal Behavior* 20.5, pp. 540–551. DOI: [`10.1016/s0022-5371(81)90165-1`](https://www.sciencedirect.com/science/article/abs/pii/S0022537181901651).
+- Self-paced reading with acceptability judgments: Gibson, Edward, Leon Bergen, and Steven T Piantadosi (2013). “Rational integration of noisy evidence and prior semantic expectations in sentence interpretation”. In: *Proceedings of the National Academy of Sciences* 110.20, pp. 8051–8056. DOI: [`10.1073/pnas.1216438110`](https://www.pnas.org/doi/full/10.1073/pnas.1216438110).
