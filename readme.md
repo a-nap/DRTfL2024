@@ -8,7 +8,7 @@ The materials will be updated weekly. Identifying information of the in-class pa
 You are more than welcome to follow along but I will not be able to grade or evaluate your homework.
 
 If you want to replicate this course, you can do so with
-proper attribution. To replicate the data, follow these links for [Experiment 1](https://farm.pcibex.net/r/CuZHnp/) (full Moses illusion experiment) and Experiment 2 (demo of self-paced reading with acceptability judgment).
+proper attribution. To replicate the data, follow these links for [Experiment 1](https://farm.pcibex.net/r/CuZHnp/) (full Moses illusion experiment) and [Experiment 2](https://farm.pcibex.net/r/zAxKiw/) (demo of self-paced reading with acceptability judgment).
 
 ## Course description
 
@@ -44,9 +44,9 @@ This is a rough overview of the topics discussed every week. These are subject t
 | 9    | Creating reports with Quarto and knitr | Pandoc, markdown, Quarto, basic syntax and elements, export, document, and chunk options, documentation | Complete [assignment 7](https://github.com/a-nap/DRTfL2024/blob/main/Week%209/week9assignment.md). | [Slides](https://github.com/a-nap/DRTfL2024/blob/main/Week%209/week9handout.pdf), [compressed Quarto files](https://github.com/a-nap/DRTfL2024/blob/main/Week%209/quarto-demo.zip) |
 | 10    | Typesetting documents with LaTeX | What is LaTeX, basic document and file structure, advantages and disadvantages, from R to LaTeX | Complete [assignment 8](https://github.com/a-nap/DRTfL2024/blob/main/Week%2010/week10assignment.md), read chapter 2 of [*The Not So Short Introduction to LaTeX*](https://tobi.oetiker.ch/lshort/lshort.pdf). | [Slides](https://github.com/a-nap/DRTfL2024/blob/main/Week%2010/week10handout.pdf), [basic LaTeX file (zip)](https://github.com/a-nap/DRTfL2024/blob/main/Week%2010/basic%20LaTeX%20document.zip) |
 | 11    | Typesetting documents with LaTeX | Editing text (commands, whitespace, environments, font properties, figures, and tables), glosses, IPA symbols, semantic formulae, syntactic trees | Complete [assignment 9](https://github.com/a-nap/DRTfL2024/blob/main/Week%2011/week11assignment.md), read [*Bibliography management with biblatex*](https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex) | [Slides](https://github.com/a-nap/DRTfL2024/blob/main/Week%2011/week11handout.pdf) |
-| 12   | Typesetting documents with LaTeX and bibliography management | Large projects, citations, references, bibliography styles, bib file structure | tbd | [Slides](), [big project files]() |
-| 13   | Literature and reference management, common command line commands | Reference managers, looking up literature, text editors, command line commands (grep, diff, ping, cd, etc.) | tbd | Slides, code |
-| 14   | Version control and Git | Git, GitHub, version control | tbd | Slides |
+| 12   | Typesetting documents with LaTeX and bibliography management | Large projects, citations, references, bibliography styles, bib file structure | Complete [assignment  10](https://github.com/a-nap/DRTfL2024/blob/main/Week%2012/week12assignment.md) | [Slides](https://github.com/a-nap/DRTfL2024/blob/main/Week%2012/week12handout.pdf), [big project files](https://github.com/a-nap/DRTfL2024/blob/main/Week%2012/big_project.zip) |
+| 13   | Literature and reference management, common command line commands | Reference managers, looking up literature, command line commands (grep, diff, ping, cd, etc.) | Complete assignment 11 | Slides, code |
+| 14   | Text editors, version control and Git | Text editors, Git, GitHub, version control | tbd | Slides |
 | 15   | Version control and Git | Git, GitHub, SSH, reverting to older versions | tbd | Slides, code |
 | 16   | Course wrap-up | | | Slides |
 
@@ -68,10 +68,8 @@ This is a rough overview of the topics discussed every week. These are subject t
 
 ### R
 
-- QCBS R Workshop Series [https://r.qcbs.ca/](https://r.qcbs.ca/)
+- QCBS R Workshop Series [`https://r.qcbs.ca/`](https://r.qcbs.ca/)
 - Wickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund (2023). *R for data science: import, tidy, transform, visualize, and model data*. 2nd ed. O’Reilly Media, Inc. URL: [`https://r4ds.hadley.nz/`](https://r4ds.hadley.nz/).
-
-
 
 ### Experiments
 
