@@ -46,13 +46,12 @@ This is a rough overview of the topics discussed every week. These are subject t
 | 11    | Typesetting documents with LaTeX | Editing text (commands, whitespace, environments, font properties, figures, and tables), glosses, IPA symbols, semantic formulae, syntactic trees | Complete [assignment 9](https://github.com/a-nap/DRTfL2024/blob/main/Week%2011/week11assignment.md), read [*Bibliography management with biblatex*](https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex) | [Slides](https://github.com/a-nap/DRTfL2024/blob/main/Week%2011/week11handout.pdf) |
 | 12   | Typesetting documents with LaTeX and bibliography management | Large projects, citations, references, bibliography styles, bib file structure | Complete [assignment  10](https://github.com/a-nap/DRTfL2024/blob/main/Week%2012/week12assignment.md) | [Slides](https://github.com/a-nap/DRTfL2024/blob/main/Week%2012/week12handout.pdf), [big project files](https://github.com/a-nap/DRTfL2024/blob/main/Week%2012/big_project.zip) |
 | 13   | Literature and reference management, common command line commands | Reference managers, looking up literature, command line commands (grep, diff, ping, cd, etc.) | Complete [assignment 11](https://github.com/a-nap/DRTfL2024/blob/main/Week%2013/week13assignment.md) | [Slides](https://github.com/a-nap/DRTfL2024/blob/main/Week%2013/week13upload.pdf), [corpus1.txt](https://github.com/a-nap/DRTfL2024/blob/main/Week%2013/corpus1.TXT), [corpus2.txt](https://github.com/a-nap/DRTfL2024/blob/main/Week%2013/corpus2.TXT), [corpus3.txt](https://github.com/a-nap/DRTfL2024/blob/main/Week%2013/corpus3.TXT), [big project 1](https://github.com/a-nap/DRTfL2024/blob/main/Week%2013/big_project_1.zip), [big project 2](https://github.com/a-nap/DRTfL2024/blob/main/Week%2013/big_project_2.zip) |
-| 14   | Text editors, version control and Git | Text editors, Git, GitHub, version control | tbd | Slides |
-| 15   | Version control and Git | Git, GitHub, SSH, reverting to older versions | tbd | Slides, code |
-| 16   | Course wrap-up | | | Slides |
+| 14   | Text editors, version control and Git | Text editors, Git, GitHub, version control | Complete assignment 12 | Slides |
+| 15   | Version control and Git | Git, GitHub, SSH, reverting to older versions | In class assignment | Slides |
 
 ## Recommended reading
 
-### LaTeX 
+### LaTeX
 
 - Overleaf (n.d.) *Bibliography management with biblatex*. Accessed: 2024-06-24. URL: [`https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex`](https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex)
 - Dickinson, Markus and Josh Herring (2008). *LaTeX for Linguists*. Accessed: 2024-06-07. URL:
