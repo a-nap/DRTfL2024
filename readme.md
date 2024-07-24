@@ -57,7 +57,7 @@ This is a rough overview of the topics discussed every week. These are subject t
 - Another git guide: [`http://rogerdudler.github.io/git-guide/`](http://rogerdudler.github.io/git-guide/)
 - Git tutorial: [`http://git-scm.com/docs/gittutorial`](http://git-scm.com/docs/gittutorial)
 - Another git tutorial: [`https://www.w3schools.com/git/`](https://www.w3schools.com/git/)
-- Git cheat sheets: \url{https://training.github.com/}
+- Git cheat sheets: [`https://training.github.com/`](https://training.github.com/)
 - Where to ask questions: [Stackoverflow](https://stackoverflow.com)
 
 ### LaTeX
